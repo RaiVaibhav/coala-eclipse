@@ -28,4 +28,4 @@ before_install:
   - sudo apt-get -y install metacity
 
 script:
-  - mvn install
+  - mvn clean verify
